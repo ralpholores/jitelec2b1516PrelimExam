@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Prelim Exam</string>
     <string name="action_settings">Settings</string>
+    <string name="Incremenet">Increment</string>
+    <string name="Increment">Increment</string>
+    <string name="Decrement">Decrement</string>
 </resources>

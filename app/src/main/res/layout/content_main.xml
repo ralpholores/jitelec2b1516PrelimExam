@@ -31,12 +31,12 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textView2"
+        android:layout_below="@+id/seekValue"
         android:max="1000"
         android:progress="100"/>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/seekValue"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -58,17 +58,17 @@
         android:orientation="vertical">
 
         <RadioButton
-            android:id="@+id/radioButton"
+            android:id="@+id/inc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="New RadioButton"/>
+            android:text="@string/Increment"/>
 
         <RadioButton
-            android:id="@+id/radioButton2"
+            android:id="@+id/dec"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="New RadioButton"/>
+            android:text="@string/Decrement"/>
     </RadioGroup>
 
     <ToggleButton
@@ -77,5 +77,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
-        android:text="New ToggleButton"/>
+        android:text="New ToggleButton"
+           android:textOn="Stop"
+        android:textOff="Start" />
 </RelativeLayout>
